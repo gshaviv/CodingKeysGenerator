@@ -7,5 +7,6 @@ struct CodingKeysGeneratorPlugin: CompilerPlugin {
         CodingKeysMacro.self,
         CustomCodingKeyMacro.self,
         CodingKeyIgnoredMacro.self,
+        TablePersistMacro.self,
     ]
 }
